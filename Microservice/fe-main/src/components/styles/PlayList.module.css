@@ -1,0 +1,21 @@
+/* All */
+
+/* Mobile */
+@media (width < 1024px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+/* Desktop */
+@media (width >= 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 1rem;
+    row-gap: 3rem;
+  } 
+}

@@ -1,0 +1,26 @@
+/* All */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.homeLink {
+  margin: 1rem 0;
+  color: black;
+}
+
+/* Mobile */
+@media (width < 1024px) {
+  .container {
+    width: 360px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop */
+@media (width >= 1024px) {
+  
+}

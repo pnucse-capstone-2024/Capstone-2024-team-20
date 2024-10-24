@@ -1,0 +1,44 @@
+/* All */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.inputLabel {
+  cursor: pointer;
+  background: var(--color-blue);
+  padding: 0.625rem 2rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+/* Mobile */
+@media (width < 1024px) {
+  .thumbnail {
+    height: 40rem;
+    width: 30rem;
+    object-fit: cover;
+    background-color: #c0c0c080;
+  }
+}
+
+/* Desktop */
+@media (width >= 1024px) {
+  .thumbnail {
+    height: 24rem;
+    width: 18rem;
+    object-fit: cover;
+    background-color: #c0c0c080;
+  }
+}

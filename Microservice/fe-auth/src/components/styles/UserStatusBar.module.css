@@ -1,0 +1,35 @@
+/* All */
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.link {
+  flex-shrink: 0;
+  text-decoration: none;
+  color: #000;
+}
+
+.logout {
+  flex-shrink: 0;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0;
+}
+
+/* Mobile */
+@media (width < 1024px) {
+  .email {
+    display: none;
+  }
+}
+
+/* Desktop */
+@media (width >= 1024px) {
+  
+}

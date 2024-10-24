@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.25rem;
+}
+
+.label {
+
+}
+
+.toggleContainer {
+  position: relative;
+  border-radius: 9999px;
+  background: var(--color-gray);
+  padding: 2px;
+  width: 3rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+
+.toggleContainerEnabled {
+  background: var(--color-green);
+}
+
+.toggle {
+  position: relative;
+  border-radius: 9999px;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #fff;
+  transition-duration: 0.5s;
+}
+
+.toggleEnabled {
+  transform: translateX(calc(1.5rem - 4px));
+}

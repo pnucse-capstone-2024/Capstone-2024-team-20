@@ -1,0 +1,31 @@
+/* All */
+.dateToDate {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 0.5rem 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 480px;
+  margin: 2rem auto;
+  align-items: center;
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}

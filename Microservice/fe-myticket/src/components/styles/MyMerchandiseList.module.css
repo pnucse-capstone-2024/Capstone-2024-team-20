@@ -1,0 +1,9 @@
+.container {
+  padding: 1rem 2rem;
+}
+
+.eventName {
+  font-size: 1.125rem;
+  font-weight: 700;
+  margin: 1rem 0;
+}

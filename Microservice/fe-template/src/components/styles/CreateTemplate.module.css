@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  align-items: start;
+}
+
+.title {
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.image {
+  margin: 0.5rem 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid black;
+}
+
+.imageTitle {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  font-weight: 700;
+}
+
+.portValList,
+.envValList {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  gap: 0.5rem;
+}
+
+.portVal,
+.envVal {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.envFormContainer {
+  padding: 0.5rem 0;
+}
+
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.labelName {
+  min-width: 6rem;
+}

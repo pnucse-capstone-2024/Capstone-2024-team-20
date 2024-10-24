@@ -1,0 +1,37 @@
+.priceLabel {
+  padding: 0 0.5rem 1rem;
+  font-weight: 700;
+}
+
+.priceContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.venueImage {
+  height: 300px;
+  width: 300px;
+  background-color: var(--color-lightblue);
+  flex-grow: 1;
+}
+
+.venuePrice {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input {
+  border: 0;
+  outline: none;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+  gap: 0.5rem;
+}

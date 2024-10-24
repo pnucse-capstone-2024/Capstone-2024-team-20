@@ -1,0 +1,24 @@
+/* All */
+.container {
+  padding: 1rem 0;
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-size: 1.75rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Mobile */
+@media (width < 1024px) {
+  .sectionTitle {
+    font-size: 1.375rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Desktop */
+@media (width >= 1024px) {
+  
+}

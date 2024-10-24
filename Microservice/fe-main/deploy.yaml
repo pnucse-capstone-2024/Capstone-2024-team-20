@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: fe-main-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: fe-main
+  template:
+    metadata:
+      labels:
+        app: fe-main
+    spec:
+      containers:
+        - name: fe-main
+          image: dhlclove/fe-main:1.0.13
+          ports:
+            - containerPort: 80
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: fe-main-service
+spec:
+  selector:
+    app: fe-main
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: fe-main-route
+spec:
+  parentRefs:
+  - name: gateway
+    namespace: istio-ingress
+  rules:
+  - matches:
+    - path:
+        type: PathPrefix
+        value: /page/main
+    backendRefs:
+    - name: fe-main-service
+      port: 80
+    filters:
+      - type: URLRewrite
+        urlRewrite:
+          path:
+            type: ReplacePrefixMatch
+            replacePrefixMatch: /

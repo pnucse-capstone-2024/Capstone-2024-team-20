@@ -1,0 +1,87 @@
+/* All */
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.result {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-weight: 700;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.ticketList {
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  font-size: 0.75rem;
+  color: #808080;
+}
+
+.ticket {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0;
+}
+
+.home {
+  display: flex;
+  justify-content: center;
+}
+
+/* Mobile */
+@media (width < 1024px) {
+  .container {
+    width: 400px;
+    margin: 2rem auto 0;
+    text-align: center;
+  }
+
+  .eventTime {
+    width: 160px;
+  }
+  
+  .section {
+    width: 60px;
+  }
+  
+  .seatNumber {
+    width: 60px;
+  }
+
+  .price {
+    width: 120px;
+  }
+}
+
+/* Desktop */
+@media (width >= 1024px) {
+  .container {
+    margin: 2rem auto 0;
+    width: 640px;
+    text-align: center;
+  }
+
+  .eventTime {
+    width: 200px;
+  }
+  
+  .section {
+    width: 80px;
+  }
+  
+  .seatNumber {
+    width: 80px;
+  }
+
+  .price {
+    width: 280px;
+  }
+}

@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 480px;
+  margin: 2rem auto;
+  align-items: center;
+}
+
+.thumbnailImage {
+  height: 40rem;
+  width: 30rem;
+  object-fit: cover;
+}
+
+.dateToDate {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 0.5rem 0;
+}
+
+.category {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  border-bottom: 2px solid black;
+  align-items: center;
+  width: 100%;
+}
+
+.categoryName {
+  font-weight: 700;
+  padding: 1rem 0.5rem;
+}
+
+.priceList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.descriptionImage {
+  object-fit: contain;
+  width: 12rem;
+  height: 16rem;
+  border: 1px solid black;
+}
+
+.deleteButton {
+  font-weight: 700;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  background: var(--color-red);
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.disabled {
+  color: #b0b0b0;
+  padding: 1rem 0.5rem;
+}

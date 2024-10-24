@@ -1,0 +1,24 @@
+@import url('./reset.css');
+
+:root {
+  --color-blue: #567ace;
+  --color-lightblue: #b7d3e9;
+  --color-gray: #c0c0c0;
+  --color-red: #ff7070;
+  --color-green: #94f692;
+  --color-darkgreen: #319447;
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  font-weight: 100 900;
+  src: url('./fonts/NotoSansKR-VariableFont_wght.ttf') format('truetype');
+}
+
+body, * {
+  font-family: 'NotoSansKR', sans-serif;
+}
+
+#root {
+  width: 100vw;
+}

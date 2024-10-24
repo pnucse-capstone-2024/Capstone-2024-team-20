@@ -1,0 +1,36 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 2.5rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.radioTitle {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.radioContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.radioLabel {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

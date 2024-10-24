@@ -1,0 +1,18 @@
+.conatiner {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cardList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 1rem 0;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+}

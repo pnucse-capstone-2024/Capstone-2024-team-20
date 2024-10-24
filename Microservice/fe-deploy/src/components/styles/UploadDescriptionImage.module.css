@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.imageList {
+  display: flex;
+  flex-direction: row;
+  max-width: 1187px;
+  padding: 0 2rem;
+  overflow-x: auto;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.image {
+  object-fit: contain;
+  width: 12rem;
+  height: 16rem;
+  border: 1px solid black;
+}
+
+.inputLabel {
+  cursor: pointer;
+  background: var(--color-blue);
+  padding: 0.625rem 2rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  color: #fff;
+}
+
+.input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+.deleteButton {
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  padding: 0.25rem;
+}

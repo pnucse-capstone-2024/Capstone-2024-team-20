@@ -1,0 +1,18 @@
+.input {
+  flex-grow: 1;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+.textarea {
+  vertical-align: bottom;
+  resize: none;
+  flex-grow: 1;
+  padding: 0.25rem;
+  outline: none;
+  border: none;
+  width: 348px;
+  height: 1.5rem;
+}

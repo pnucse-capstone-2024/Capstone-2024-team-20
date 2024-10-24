@@ -1,0 +1,19 @@
+/* All */
+
+/* Mobile */
+@media (width < 1024px) {
+  .buttonContainer {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }  
+}
+
+/* Desktop */
+@media (width >= 1024px) {
+  .buttonContainer {
+    display: flex;
+    justify-content: end;
+  }  
+}
+

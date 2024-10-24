@@ -1,0 +1,150 @@
+/* All */
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.sectionTitle {
+  font-size: 0.75rem;
+  color: #808080;
+}
+
+/* Mobile */
+@media (width < 1024px) {
+  .thumbnailContainer {
+    height: 24rem;
+    width: 18rem;
+  }
+
+  .container {
+    width: 18rem;
+    margin: 0 auto;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  .content {
+    padding: 0 0.5rem;
+  }
+
+  .title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    color: #000;
+  }
+
+  .bookingDate {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .bold {
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  .right {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+    justify-content: space-between;
+  }
+
+  .dateInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+  }
+}
+
+/* Desktop */
+@media (width >= 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+  }
+  
+  .thumbnailContainer {
+    height: 10rem;
+    width: 7.5rem;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  
+  .left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000;
+  }
+  
+  .playType {
+    font-size: 0.875rem;
+    color: var(--color-gray);
+  }
+  
+  .right {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .bookingDate {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    white-space: nowrap;
+    align-items: center;
+  }
+  
+  .seat {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+  
+  .bold {
+    font-weight: 700;
+    white-space: nowrap;
+  }
+  
+  .date {
+    width: 6rem;
+    color: var(--color-gray);
+  }
+
+  .dateInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .simpleMonitor {
+    width: 8rem;
+  }
+}

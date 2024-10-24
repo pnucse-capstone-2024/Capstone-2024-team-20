@@ -1,0 +1,10 @@
+.label {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.labelName {
+  min-width: 6rem;
+}

@@ -1,0 +1,44 @@
+/* All */
+.title {
+  font-weight: 700;
+  font-size: 1.25rem;
+  padding-left: 3rem;
+}
+
+.tooltipContainer {
+  border-radius: 0.25rem;
+  padding: 0.75rem 1rem;
+  background-color: #000000bf;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
+}
+
+/* Mobile */
+@media (width < 1024px) {
+  .container {
+    width: 100%;
+    padding: 2rem 0;
+    margin: 2rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 32px -8px #808080;
+  }
+}
+
+/* Desktop */
+@media (width >= 1024px) {
+  .container {
+    width: 1024px;
+    padding: 1.5rem 0 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 32px -8px #808080;
+    background: #f0f0f0;
+    margin: 2rem 0;
+  }
+
+  .error {
+    padding: 1rem;
+  }
+}

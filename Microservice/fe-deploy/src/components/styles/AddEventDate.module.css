@@ -1,0 +1,30 @@
+.container {
+  width: 480px;
+}
+
+.eventDateList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.eventDate {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.deleteButton {
+  display: flex;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  padding: 0.25rem;
+}
+
+.input {
+  flex-grow: 1;
+  justify-self: center;
+}
